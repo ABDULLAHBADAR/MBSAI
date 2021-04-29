@@ -350,18 +350,20 @@ h2.title span:last-child {
 }
 #section-profile {
   background: #c80a48;
+  height: 140%;
 }
 
 .profile-bg {
   background-color: transparent;
   background: url("../images/bride\ g.jpg");
+  background-size: cover;
   position: absolute;
   background-clip: border-box;
   background-attachment: scroll;
   background-origin: padding-box;
   background-repeat: no-repeat;
   left: 0px;
-  top: 0px;
+  top: 00px;
   height: 100%;
   z-index: 2;
   background-size: cover;
