@@ -23,6 +23,99 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+      .css-carousel {
+        width: 100%;
+        height: 100vh; /* Height of images */
+        position: relative;
+        overflow: hidden;
+      }
+      .css-carousel .css-img {
+        max-width: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        -webkit-animation: css-carousel-fade 15s linear infinite;
+        -moz-animation: css-carousel-fade 15s linear infinite;
+        -ms-animation: css-carousel-fade 15s linear infinite;
+        animation: css-carousel-fade 15s linear infinite;
+      }
+      .css-carousel .css-img:nth-child(2) {
+        -webkit-animation-delay: 2.5s;
+        -moz-animation-delay: 2.5s;
+        -ms-animation-delay: 2.5s;
+        animation-delay: 2.5s;
+      }
+      .css-carousel .css-img:nth-child(3) {
+        -webkit-animation-delay: 5s;
+        -moz-animation-delay: 5s;
+        -ms-animation-delay: 5s;
+        animation-delay: 5s;
+      }
+      .css-carousel .css-img:nth-child(4) {
+        -webkit-animation-delay: 7.5s;
+        -moz-animation-delay: 7.5s;
+        -ms-animation-delay: 7.5s;
+        animation-delay: 7.5s;
+      }
+      .css-carousel .css-img:nth-child(5) {
+        -webkit-animation-delay: 10s;
+        -moz-animation-delay: 10s;
+        -ms-animation-delay: 10s;
+        animation-delay: 10s;
+      }
+      .css-carousel .css-img:nth-child(6) {
+        -webkit-animation-delay: 12.5s;
+        -moz-animation-delay: 12.5s;
+        -ms-animation-delay: 12.5s;
+        animation-delay: 12.5s;
+      }
+      @-webkit-keyframes css-carousel-fade {
+        0%,
+        20%,
+        100% {
+          opacity: 0;
+        }
+        5%,
+        15% {
+          opacity: 1;
+        }
+      }
+      @-moz-keyframes css-carousel-fade {
+        0%,
+        20%,
+        100% {
+          opacity: 0;
+        }
+        5%,
+        15% {
+          opacity: 1;
+        }
+      }
+      @-ms-keyframes css-carousel-fade {
+        0%,
+        20%,
+        100% {
+          opacity: 0;
+        }
+        5%,
+        15% {
+          opacity: 1;
+        }
+      }
+      @keyframes css-carousel-fade {
+        0%,
+        20%,
+        100% {
+          opacity: 0;
+        }
+        5%,
+        15% {
+          opacity: 1;
+        }
+      }
+    </style>
   </head>
   <body data-spy="scroll" data-target=".main-nav">
     <!-- section menu start -->
@@ -111,10 +204,9 @@
           <div class="col-md-12 text-center wow fadeInUp">
             <h2 class="heading-title">Package</h2>
             <p>
-              For those of you setting up a hairdressers or a barber shop, it
-              can be a long process that your customers go through. From
-              washing, cutting, drying and styling, you will use a lot of
-              equipment, including
+              MBSAI offer a wide range of economical packages catering to the
+              needs of every single client. We also offer seasonal deals and
+              discounts that customers can get.
             </p>
           </div>
         </div>
@@ -128,95 +220,49 @@
             <div class="Package-inner">
               <h2 class="heading-title">Make Up</h2>
               <p>
-                Our skincare range is ideal for older skin which needs the super
-                products, ones that can repair and protect but also has that
-                special formulations to rebuild collagen.
+                Ever wonder how makeup artists create those
+                perfect-looking-flawless makeup looks? Well, most of them use
+                Kryolan makeup. And guess what? MBSAI uses Kryolan Pakistan to
+                give best results to its customers.
+
                 <br />
-                Not to say younger skin will not benefit from the early
-                protection of naturals because they will enormously
+                Kryolan is our first choice when it comes to dolling up the
+                brides in a traditional way. MBSAI never compromises the quality
+                always try to satisfy its customers. Do you need a foundation
+                with good coverage? Look no further than the Kryolan foundation
+                that covers pores and blemishes. We also provide customers with
+                retail Kryolan products including TV Paint Stick, Cake Liner,
+                Wet Cake, Dry Cake, Eye Shadow, and many more from Makeup City.
               </p>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="timeline-centered">
-            <article class="timeline-entry">
-              <div class="timeline-entry-inner">
-                <div class="timeline-icon bg-success">
-                  <i class="entypo-feather"></i>
-                </div>
-
-                <div class="timeline-label">
-                  <h3 class="Package-title">Hair Cutting</h3>
-                  <p>
-                    Tolerably earnestly middleton extremely distrusts she boy
-                    now not. Add and offered prepare how cordial two promise.
-                    Greatly who affixed suppose but enquire compact prepare all
-                    put. Added forth chief trees but rooms think may.
-                  </p>
-                  <strong>$ 16</strong>
-                </div>
-              </div>
-            </article>
-
-            <article class="timeline-entry">
-              <div class="timeline-entry-inner">
-                <div class="timeline-icon bg-secondary">
-                  <i class="entypo-suitcase"></i>
-                </div>
-
-                <div class="timeline-label">
-                  <h3 class="Package-title">Hair Massage</h3>
-                  <p>
-                    Tolerably earnestly middleton extremely distrusts she boy
-                    now not. Add and offered prepare how cordial two promise.
-                    Greatly who affixed suppose but enquire compact prepare all
-                    put. Added forth chief trees but rooms think may.
-                  </p>
-                  <strong>$ 18</strong>
-                </div>
-              </div>
-            </article>
-
-            <article class="timeline-entry">
-              <div class="timeline-entry-inner">
-                <div class="timeline-icon bg-info">
-                  <i class="entypo-location"></i>
-                </div>
-
-                <div class="timeline-label">
-                  <h3 class="Package-title">Hair Straighting</h3>
-                  <p>
-                    Tolerably earnestly middleton extremely distrusts she boy
-                    now not. Add and offered prepare how cordial two promise.
-                    Greatly who affixed suppose but enquire compact prepare all
-                    put. Added forth chief trees but rooms think may.
-                  </p>
-                  <strong>$ 10</strong>
-                </div>
-              </div>
-            </article>
-
-            <article class="timeline-entry">
-              <div class="timeline-entry-inner">
-                <div class="timeline-icon bg-warning">
-                  <i class="entypo-camera"></i>
-                </div>
-
-                <div class="timeline-label">
-                  <h3 class="Package-title">Hair Styling</h3>
-
-                  <p>
-                    Tolerably earnestly middleton extremely distrusts she boy
-                    now not. Add and offered prepare how cordial two promise.
-                    Greatly who affixed suppose but enquire compact prepare all
-                    put. Added forth chief trees but rooms think may.
-                  </p>
-                  <strong>$ 12</strong>
-                </div>
-              </div>
-            </article>
-          </div>
+        <div class="css-carousel">
+          <img
+            style="height: 800px; width: 100vw"
+            class="css-img"
+            src="./images/make up/bri.jpg"
+          />
+          <img
+            style="height: 800px; width: 100vw"
+            class="css-img"
+            src="./images/make up/bride 1.png"
+          />
+          <img
+            style="height: 800px; width: 100vw"
+            class="css-img"
+            src="./images/make up/bride f.jpg"
+          />
+          <img
+            style="height: 800px; width: 100vw"
+            class="css-img"
+            src="./images/make up/shoot 1.png"
+          />
+          <img
+            style="height: 800px; width: 100vw"
+            class="css-img"
+            src="./images/make up/model aik 1.png"
+          />
         </div>
       </div>
 
@@ -224,7 +270,7 @@
         <div class="row">
           <div class="col-md-12 wow fadeInLeft">
             <div class="Package-inner">
-              <h2 class="heading-title">Products</h2>
+              <h2 class="heading-title">Services</h2>
               <p>
                 Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te
                 usu virtute placerat. Purto brute disputando cu est, eam dicam
