@@ -178,7 +178,7 @@ h5 {
 /*Global styles
 ==============================================*/
 .section-padding {
-  padding: 100px 0px;
+  padding: 0px 0px;
 }
 p {
   /* color: #929292; */
@@ -334,7 +334,7 @@ h2.title span:last-child {
 =====================================================*/
 
 #section-overview {
-  padding: 75px 0px 80px;
+  padding: 20px 0px 80px;
 }
 .overview-box {
 }
